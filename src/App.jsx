@@ -51,7 +51,7 @@ function App() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition">
         <img 
-          src="/service1.jpg" 
+          src="/satellite-dish.png" 
           alt="Flight Booking" 
           className="w-16 h-16 mb-4 object-contain"
         />
@@ -61,7 +61,7 @@ function App() {
 
       <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition">
         <img 
-          src="/service2.jpg" 
+          src="/plane.png" 
           alt="Hotel Reservation" 
           className="w-16 h-16 mb-4 object-contain"
         />
@@ -71,7 +71,7 @@ function App() {
 
       <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition">
         <img 
-          src="/service3.jpg" 
+          src="/mic.png" 
           alt="Tour Packages" 
           className="w-16 h-16 mb-4 object-contain"
         />
@@ -100,17 +100,22 @@ function App() {
   
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-7xl mx-auto">
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+      <div className='max-h-64 overflow-hidden'>
       <img 
-        src="/paris.jpg" 
+        src="/Italy.png" 
         alt="Paris"
-        className="w-full h-48 object-cover"
+        className="w-full h-auto object-cover"
       />
+      </div>
       <div className="p-4">
-        <div className='flex justify-between'>
+        <div className='flex justify-between mb-3'>
         <p className="text-gray-600">Rome, Italy</p>
         <p className="text-gray-600">$5.42k</p>
         </div>
-        <p className="text-gray-600">10 Days Trip</p>        
+        <div className='flex'>
+          <img src="/Vector.png" alt="" className='mr-3'/>
+          <p className="text-gray-600">12 Days Trip</p>        
+        </div>
       </div>
     </div>
 
@@ -135,17 +140,22 @@ function App() {
     </div>
 
      <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+      <div className='max-h-64 overflow-hidden'>
       <img 
-        src="/paris.jpg" 
+        src="/FullEurope.png" 
         alt="Paris"
-        className="w-full h-48 object-cover"
+        className="w-full h-auto object-cover"
       />
+      </div>
       <div className="p-4">
-        <div className='flex justify-between'>
+        <div className='flex justify-between mb-3'>
         <p className="text-gray-600">Full Europe</p>
         <p className="text-gray-600">$15k</p>
         </div>
-        <p className="text-gray-600">28 Days Trip</p>        
+        <div className='flex'>
+          <img src="/Vector.png" alt="" className='mr-3'/>
+          <p className="text-gray-600">29 Days Trip</p>        
+        </div>
       </div>
     </div>
   </div>
